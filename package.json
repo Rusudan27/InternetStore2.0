@@ -1,0 +1,45 @@
+{
+  "name": "internetstore2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "lint:style": "stylelint \"**/*.{vue,scss,css}\"",
+    "test": "nuxt test"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/scripts": "^0.13.0",
+    "@nuxt/ui": "^4.1.0",
+    "@pinia/nuxt": "^0.11.0",
+    "nuxt": "^3.17.5",
+    "nuxt-svgo": "^4.2.3",
+    "pinia": "^3.0.2",
+    "vue": "^3.5.17",
+    "vue-final-modal": "^4.5.5",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/test-utils": "^3.20.1",
+    "@nuxtjs/stylelint-module": "^5.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-vue": "^10.3.0",
+    "prettier": "^3.5.3",
+    "sass-embedded": "^1.85.1",
+    "stylelint": "^16.16.0",
+    "stylelint-config-recommended-vue": "^1.6.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "typescript": "^5.9.3"
+  }
+}
