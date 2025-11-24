@@ -1,0 +1,108 @@
+@use "./variables" as *;
+@use "./breakpoints" as *;
+
+.typography {
+  &-h1 {
+    font-family: $Righteous;
+    font-size: $font-size-g;
+    font-style: normal;
+    font-weight: $regular;
+    line-height: $large;
+    text-transform: uppercase;
+
+    @include breakpoint((pad, down)) {
+      font-family: $Righteous;
+      font-size: 92px;
+      font-style: normal;
+      font-weight: $regular;
+      line-height: 92px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-h2 {
+    font-family: $Righteous;
+    font-size: $font-size-l;
+    font-style: normal;
+    font-weight: $regular;
+    line-height: $loose;
+    text-transform: uppercase;
+
+    @include breakpoint((pad, down)) {
+      font-family: $Righteous;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: $regular;
+      line-height: 80px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-h3 {
+    font-family: $Raleway;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: $small;
+    line-height: $mediuml;
+    text-transform: uppercase;
+
+    @include breakpoint((pad, down)) {
+      font-family: $Raleway;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: $small;
+      line-height: 60px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-p1 {
+    font-family: $Righteous;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: $regular;
+    line-height: $tight;
+    text-transform: uppercase;
+
+    @include breakpoint((pad, down)) {
+      font-family: $Righteous;
+      font-size: $font-size-xxm;
+      font-style: normal;
+      font-weight: $regular;
+      line-height: $small;
+      text-transform: uppercase;
+    }
+  }
+
+  &-p2 {
+    font-family: $Raleway;
+    font-size: $font-size-xm;
+    font-style: normal;
+    font-weight: $regular;
+    line-height: $medium;
+
+    @include breakpoint((pad, down)) {
+      font-family: $Raleway;
+      font-size: $font-size-s;
+      font-style: normal;
+      font-weight: $regular;
+      line-height: $small;
+    }
+  }
+
+  &-p3 {
+    font-family: $Raleway;
+    font-size: $font-size-xs;
+    font-style: normal;
+    font-weight: $regular;
+    line-height: $small;
+
+    @include breakpoint((pad, down)) {
+      font-family: $Raleway;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: $regular;
+      line-height: $small;
+    }
+  }
+}
